@@ -1,5 +1,7 @@
-````md
+
 # GraphQL Development Standards
+
+[![GraphQL Guidelines](https://github.com/sathishk/grapqh-ref/blob/main/.github/workflows/grapql-guidelines.yml/badge.svg)]([https://github.com/AgtechQAAutomation/api_process_automation/actions/workflows/api-tests.yml](https://github.com/sathishk/grapqh-ref/blob/main/.github/workflows/grapql-guidelines.yml))
 
 This project adheres to strict GraphQL linting and schema design standards to ensure high-quality APIs and reliable client-side data management. We use **@graphql-eslint** to enforce these rules.
 
@@ -91,4 +93,3 @@ npx eslint .
 | Description is required          | Add a `""" description """` above the type or field                 |
 | Field `id` must be selected      | Add the `id` field to your query selection set                      |
 
----
