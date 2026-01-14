@@ -1,5 +1,5 @@
-query GetPersonDetails {
-  person(id: "1") {
+query GetPersonDetails($id: ID!) {
+  person(id: $id) {
     id
     name
     age
