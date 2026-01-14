@@ -1,0 +1,28 @@
+"""
+A person entity representing a user in the system
+"""
+type Person {
+  id: ID!
+  name: String!
+  age: Int
+}
+
+"""
+The root query type
+"""
+type Query {
+  """
+  A query to fetch all people
+  """
+  people: [Person]
+
+  """
+  A query to fetch a single person by their ID
+  """
+  person(
+    """
+    The unique identifier of the person
+    """
+    id: ID!
+  ): Person
+}

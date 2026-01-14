@@ -1,0 +1,23 @@
+{
+  "name": "api_process_automation",
+  "version": "1.0.0",
+  "description": "[![All Tests](https://github.com/AgtechQAAutomation/api_process_automation/actions/workflows/api-tests.yml/badge.svg)](https://github.com/AgtechQAAutomation/api_process_automation/actions/workflows/api-tests.yml)",
+  "main": "eslint.config.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgtechQAAutomation/api_process_automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgtechQAAutomation/api_process_automation/issues"
+  },
+  "homepage": "https://github.com/AgtechQAAutomation/api_process_automation#readme",
+  "devDependencies": {
+    "@graphql-eslint/eslint-plugin": "^4.4.0"
+  }
+}
